@@ -1,0 +1,31 @@
+---
+testing: False
+payment_time: 
+  year: 2023
+  month: 1
+  day: 18
+  hour: 12 # military time
+  minute: 49
+payment_info:
+  number: 1234567890123456
+  exp: 
+    month: '11' # (MM)
+    year: '24' # (YY)
+  cvv: 123
+  country: US
+  zip: 35749
+  email: jlmoors001@gmail.com
+  phone: 2567017888
+parking_info:
+  zone: 14705
+  zone_state: MS
+  zone_city: Starkville
+  duration: 
+    hours: 0 # (options are 1-4)
+    minutes: 15 # (options are 0, 15, 30, 45) 
+  plate: 2798AD9
+  plate_country: US
+  plate_state: AL
+  # WARNING: DO NOT CHANGE UNLESS AUTHORIZED  
+  desired_location_hour_limits: [0, 1, 2, 3, 4]
+  desired_location_minute_limits: [0, 15, 30, 45]
